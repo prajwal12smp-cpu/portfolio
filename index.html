@@ -4,120 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prajwal - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <!-- Ambient background shapes for neon effect -->
+    <div class="ambient-shape shape-1"></div>
+    <div class="ambient-shape shape-2"></div>
+    <div class="ambient-shape shape-3"></div>
+
+    <header id="header">
         <nav>
             <div class="nav-container">
-                <h1 class="logo">PRAJWAL SHIVASHIMPAR</h1>
+                <h1 class="logo">Prajwal<span>.</span></h1>
                 <ul class="nav-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#certifications">Certifications</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#hero" class="nav-item">Home</a></li>
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#skills" class="nav-item">Skills</a></li>
+                    <li><a href="#projects" class="nav-item">Projects</a></li>
+                    <li><a href="#certifications" class="nav-item">Certifications</a></li>
+                    <li><a href="#education" class="nav-item">Education</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
                 </ul>
+                <div class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
         </nav>
     </header>
 
     <section id="hero" class="hero">
-        <div class="hero-content">
-            <h1>Prajwal Shivashimpar</h1>
-            <p class="intro">AI/ML Engineering Student | Python Developer | Full-Stack Learner | Aspiring AI Engineer</p>
+        <div class="hero-content reveal">
+            <div class="hero-badge">Welcome to my portfolio</div>
+            <h1 class="glitch-title">Hi, I'm <span class="highlight">Prajwal</span></h1>
+            <p class="role-text">AI/ML Engineering Student & Future Tech Innovator</p>
+            <p class="intro">Passionate about building intelligent systems, full-stack development, and exploring the frontiers of artificial intelligence.</p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn primary">View Projects</a>
-                <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
-                <a href="#contact" class="btn secondary">Contact Me</a>
+                <a href="#projects" class="btn primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="Prajwal%20Shivashimpar.pdf" class="btn secondary" download>Download Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container reveal">
+            <div class="section-heading">
+                <h2>About Me</h2>
+                <div class="heading-line"></div>
+            </div>
+            <div class="about-content glass-card">
+                <div class="about-text">
+                    <p>I am an enthusiastic <span class="highlight-text">AI/ML pre-final year student</span> with a strong interest in developing intelligent systems and solving real-world problems. In addition to my academic pursuits, I am passionate about technology, creativity, and self-growth.</p>
+                    <p>I actively participate in projects and activities that enhance my problem-solving skills. I am eager to contribute, learn, and grow in the field of Artificial Intelligence and Machine Learning.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h3>3+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>4</h3>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>∞</h3>
+                        <p>Passion to Learn</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am an enthusiastic AIML pre-final year student with a strong interest in developing intelligent systems and solving real-world problems. In addition to my academic pursuits, I am passionate about technology, creativity, and self-growth, and I actively participate in projects and activities that enhance my problem-solving skills. I am eager to contribute, learn, and grow in the field of Artificial Intelligence and Machine Learning.</p>
-        </div>
-    </section>
-
     <section id="skills" class="skills">
-        <div class="container">
-            <h2>Skills</h2>
+        <div class="container reveal">
+            <div class="section-heading">
+                <h2>My Skills</h2>
+                <div class="heading-line"></div>
+            </div>
             <div class="skills-grid">
-                <div class="skill-category">
+                <div class="skill-category glass-card hover-glow">
+                    <div class="icon-wrapper"><i class="fa-solid fa-code"></i></div>
                     <h3>Programming</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>C++</li>
-                        <li>JavaScript</li>
-                    </ul>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                    </div>
                 </div>
-                <div class="skill-category">
-                    <h3>AI/ML & Computer Vision</h3>
-                    <ul>
-                        <li>NumPy</li>
-                        <li>Pandas</li>
-                        <li>Scikit-learn</li>
-                        <li>TensorFlow</li>
-                        <li>OpenCV</li>
-                        <li>MediaPipe</li>
-                    </ul>
+                <div class="skill-category glass-card hover-glow">
+                    <div class="icon-wrapper"><i class="fa-solid fa-brain"></i></div>
+                    <h3>AI & CV</h3>
+                    <div class="skill-tags">
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Scikit-learn</span>
+                        <span>TensorFlow</span>
+                        <span>OpenCV</span>
+                        <span>MediaPipe</span>
+                    </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Web Development</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Flask</li>
-                        <li>Streamlit</li>
-                    </ul>
+                <div class="skill-category glass-card hover-glow">
+                    <div class="icon-wrapper"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Web Dev</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Flask</span>
+                        <span>Streamlit</span>
+                    </div>
                 </div>
-                <div class="skill-category">
+                <div class="skill-category glass-card hover-glow">
+                    <div class="icon-wrapper"><i class="fa-solid fa-toolbox"></i></div>
                     <h3>Tools</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>VS Code</li>
-                    </ul>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>SQL</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
-        <div class="container">
-            <h2>Projects</h2>
+        <div class="container reveal">
+            <div class="section-heading">
+                <h2>Featured Projects</h2>
+                <div class="heading-line"></div>
+            </div>
             <div class="projects-grid">
-                <div class="project-card">
-                    <h3>SignDetect AI – Real-Time Sign Language Detection</h3>
-                    <p>A computer vision–based application that detects hand gestures in real time using MediaPipe and a trained machine learning model.</p>
-                    <p><strong>Tech:</strong> Python, OpenCV, MediaPipe, Scikit-learn, Streamlit</p>
-                    <ul>
-                        <li>Live webcam gesture recognition</li>
-                        <li>Trained classification model</li>
-                        <li>Real-time prediction interface</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/prajwal12smp-cpu/SIGN-DETECT" class="btn small">GitHub</a>
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/prajwal12smp-cpu/SIGN-DETECT" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>SignDetect AI</h3>
+                        <p class="subtitle">Real-Time Sign Language Detection</p>
+                        <p class="description">A computer vision–based application that detects hand gestures in real time using MediaPipe and a trained machine learning model allowing real-time prediction.</p>
+                        <div class="tech-stack-list">
+                            <span>Python</span><span>OpenCV</span><span>Scikit-learn</span><span>MediaPipe</span>
+                        </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <h3>Pet Healthcare Management System</h3>
-                    <p>A web application that helps pet owners manage pet profiles, appointments, and basic health guidance in one platform.</p>
-                    <p><strong>Tech:</strong> HTML, CSS, JavaScript, Flask, SQLite</p>
-                    <ul>
-                        <li>User authentication</li>
-                        <li>Pet profile tracking</li>
-                        <li>Appointment scheduling</li>
-                        <li>AI-based health query support</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/prajwal12smp-cpu/Pet-Care-App" class="btn small">GitHub</a>
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/prajwal12smp-cpu/Pet-Care-App" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>Pet HealthCare System</h3>
+                        <p class="subtitle">Management Platform</p>
+                        <p class="description">A web application that helps pet owners manage pet profiles, appointments, and basic health guidance in one platform with AI-based health query support.</p>
+                        <div class="tech-stack-list">
+                            <span>Flask</span><span>HTML/CSS</span><span>SQLite</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,77 +182,119 @@
     </section>
 
     <section id="certifications" class="certifications">
-        <div class="container">
-            <h2>Certifications</h2>
-            <ul class="cert-list">
-                <li> AWS Generative AI for Leaders Issued by Great Learning</li>
-                <li>Google Data Analytics Professional Certificate Issued by Coursera</li>
-                <li>Foundations of Cybersecurity Issued by Coursera</li>
-                <li>HTML, CSS, and Javascript for Web Developers Issued by Johns Hopkins University (Coursera) </li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="resume" class="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>Download my resume to learn more about my experience and qualifications.</p>
-            <a href="Prajwal Shivashimpar.pdf" class="btn primary" download>Download Resume</a>
+        <div class="container reveal">
+            <div class="section-heading">
+                <h2>Certifications</h2>
+                <div class="heading-line"></div>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card glass-card">
+                    <i class="fa-brands fa-aws cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>AWS Generative AI for Leaders</h3>
+                        <p>Great Learning</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fa-brands fa-google cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Google Data Analytics</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-shield-halved cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Foundations of Cybersecurity</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-card">
+                    <i class="fa-solid fa-code cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>HTML, CSS, & Javascript</h3>
+                        <p>Johns Hopkins University</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="education" class="education">
-  <div class="container">
-    <h2>Education</h2>
-
-    <div class="edu-item">
-      <div class="edu-left">
-        <h3>Secondary (X), Karnataka State Board</h3>
-        <p>Jindal Adarsh Vidyalaya High School, SG Colony Toranagallu, Ballari DT 583123</p>
-      </div>
-      <div class="edu-right">
-        <span>90.40% · 2021</span>
-      </div>
-    </div>
-
-    <div class="edu-item">
-      <div class="edu-left">
-        <h3>Senior Secondary (XII), Karnataka State Board · Science</h3>
-        <p>Jindal PU College, SG Colony Toranagallu, Ballari DT 583123</p>
-      </div>
-      <div class="edu-right">
-        <span>74.50% · 2023</span>
-      </div>
-    </div>
-
-    <div class="edu-item">
-      <div class="edu-left">
-        <h3>B.Tech — Artificial Intelligence & Machine Learning, Computer Science & Engineering</h3>
-        <p>Rao Bahadur Y Mahabaleswarappa Engineering College</p>
-      </div>
-      <div class="edu-right">
-        <span>Sep 2023 – Present</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
+        <div class="container reveal">
+            <div class="section-heading">
+                <h2>Education</h2>
+                <div class="heading-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-glow">
+                        <div class="timeline-date">Sep 2023 – Present</div>
+                        <h3>B.Tech — AI & Machine Learning</h3>
+                        <p>Rao Bahadur Y Mahabaleswarappa Engineering College</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-glow">
+                        <div class="timeline-date">2023</div>
+                        <h3>Senior Secondary (XII) · Science</h3>
+                        <p>Jindal PU College, SG Colony Toranagallu</p>
+                        <span class="grade">Score: 74.50%</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-glow">
+                        <div class="timeline-date">2021</div>
+                        <h3>Secondary (X)</h3>
+                        <p>Jindal Adarsh Vidyalaya High School</p>
+                        <span class="grade">Score: 90.40%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:prajwal.12smp@gmail.com">prajwal.12smp@gmail.com</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/prajwal12smp-cpu" target="_blank" rel="noopener noreferrer">github.com/prajwal12smp-cpu</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prajwal-shivashimpar-284162205?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bmj1vwRCHR5CwpbjWIn6jXA%3D%3D" target="_blank" rel="noopener noreferrer">linkedin.com/in/prajwal-shivashimpar</a></p>
+        <div class="container reveal">
+            <div class="section-heading">
+                <h2>Get In Touch</h2>
+                <div class="heading-line"></div>
+            </div>
+            <p class="contact-desc">Whether you have a question, a project idea, or just want to say hi, my inbox is always open!</p>
+            <div class="contact-grid">
+                <a href="mailto:prajwal.12smp@gmail.com" class="contact-card glass-card hover-glow">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>prajwal.12smp@gmail.com</p>
+                </a>
+                <a href="https://github.com/prajwal12smp-cpu" target="_blank" rel="noopener noreferrer" class="contact-card glass-card hover-glow">
+                    <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>prajwal12smp-cpu</p>
+                </a>
+                <a href="https://www.linkedin.com/in/prajwal-shivashimpar-284162205" target="_blank" rel="noopener noreferrer" class="contact-card glass-card hover-glow">
+                    <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>Prajwal Shivashimpar</p>
+                </a>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Prajwal. All rights reserved.</p>
+            <div class="footer-content">
+                <h2 class="logo">Prajwal<span>.</span></h2>
+                <p>&copy; 2026 Prajwal Shivashimpar. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/prajwal12smp-cpu" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:prajwal.12smp@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/prajwal-shivashimpar-284162205" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
 
