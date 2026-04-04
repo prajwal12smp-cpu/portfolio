@@ -44,15 +44,15 @@ The goal of this project is to create a clean and professional online presence f
 ## 📸 Screenshots
     Home Page
 
-    <img width="1912" height="963" alt="Home Page" src="https://github.com/user-attachments/assets/d53a49ea-96a0-46a6-9f42-2eadfa8c7b85" />
+<img width="1912" height="963" alt="Home Page" src="https://github.com/user-attachments/assets/d53a49ea-96a0-46a6-9f42-2eadfa8c7b85" />
 
     Project Section
 
-    <img width="1918" height="966" alt="Project Page" src="https://github.com/user-attachments/assets/2ee9becf-8842-4b4c-9d21-d77d2367ff67" />
+<img width="1918" height="966" alt="Project Page" src="https://github.com/user-attachments/assets/2ee9becf-8842-4b4c-9d21-d77d2367ff67" />
 
     Contact Section
 
-    <img width="1912" height="943" alt="Contact Page" src="https://github.com/user-attachments/assets/37a1edca-e127-4638-b171-14b22a56371a" />
+<img width="1912" height="943" alt="Contact Page" src="https://github.com/user-attachments/assets/37a1edca-e127-4638-b171-14b22a56371a" />
 
 
 
