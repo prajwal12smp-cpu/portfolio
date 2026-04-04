@@ -38,9 +38,6 @@ The goal of this project is to create a clean and professional online presence f
 
 ---
 
-
----
-
 ## 📸 Screenshots
     Home Page
 
@@ -54,13 +51,39 @@ The goal of this project is to create a clean and professional online presence f
 
 <img width="1912" height="943" alt="Contact Page" src="https://github.com/user-attachments/assets/37a1edca-e127-4638-b171-14b22a56371a" />
 
-
-
-
 ---
 
 ## 📌 How to Run Locally
 
-1. Clone the repository:
-```bash
-git clone https://github.com/prajwal12smp-cpu/portfolio.git
+Clone the repository:
+https://github.com/prajwal12smp-cpu/portfolio.git
+
+---
+
+📈 Future Improvements
+- Add animations and transitions
+- Improve UI/UX design
+- Add backend contact form
+- Integrate the blog section
+
+---
+
+🙋‍♂️ About Me
+
+I am a Computer Science student passionate about:
+
+AI & Machine Learning
+Web Development
+Building real-world projects
+
+---
+
+📬 Contact
+- GitHub: https://github.com/prajwal12smp-cpu
+- Email: prajwal.12smp@gmail.com
+
+---
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
